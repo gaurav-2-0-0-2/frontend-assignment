@@ -11,11 +11,11 @@ import Input from './components/Input'
 function App() {
 
   return (
-    <div className='grid grid-cols-2 mt-20 text-center'>
+    <div className='mt-20'>
 
 
       <Input />
-      {/* <DynamicForm/>   */}
+
 
 
     </div>
