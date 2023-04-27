@@ -12,7 +12,7 @@
 `http://localhost:5173`
 
 If everything is fine then you will be able to see this on screen<br>
-<img src="https://github.com/gaurav-2-0-0-2/frontend-assignment/blob/b266f0028a508642ee4b37fb68f079edf4dddac3/public/page1.png" alt="ss1"/>
+<img src="https://github.com/gaurav-2-0-0-2/frontend-assignment/blob/c2567751a031904dbc344619e1b00e020203b851/src/assets/page1.png" alt="ss1"/>
 
 ### To test the project  
 In the text-area put this JSON array:
@@ -22,6 +22,6 @@ In the text-area put this JSON array:
 *Note: Paste this data as an array*<br>
 
 After pasting the data the form will be rendered on the screen and will look like this:<br>
-<img src="https://github.com/gaurav-2-0-0-2/frontend-assignment/blob/b266f0028a508642ee4b37fb68f079edf4dddac3/public/page2.png" alt="ss2"/>
+<img src="https://github.com/gaurav-2-0-0-2/frontend-assignment/blob/c2567751a031904dbc344619e1b00e020203b851/src/assets/page2.png" alt="ss2"/>
 
 
