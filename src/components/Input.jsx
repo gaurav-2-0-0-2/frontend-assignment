@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Switch } from 'antd';
 import { useRef } from 'react';
-import useTabs from "@olivieralexander/usetabs";
+// import useTabs from "@olivieralexander/usetabs";
 // import Tabs from './Tabs';
 
 
@@ -14,8 +14,8 @@ export default function Input() {
     const [toggleCC, setToggleCC] = useState(false);
     // const [formData, setFormData] = useState({});
     const [formData, setFormData] = useState({});
-    const containerRef = useRef(null);
-    const defaultRef = useRef(null);
+    // const containerRef = useRef(null);
+    // const defaultRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(1);
     const [naplesStylePizza, setNaplesStylePizza] = useState(false);
 
@@ -72,9 +72,9 @@ export default function Input() {
 
 
 
-    const { setHightlight, highlightStyles } = useTabs({
-        container: containerRef,
-    });
+    // const { setHightlight, highlightStyles } = useTabs({
+    //     container: containerRef,
+    // });
 
     const handleClick = (index) => {
         setActiveIndex(index);
@@ -123,7 +123,7 @@ export default function Input() {
                                             <div className='flex gap-5 justify-between mt-4'>
                                                 {/* Tabs Section */}
                                                 <main>
-                                                    <div className="  text-center" ref={containerRef}>
+                                                    <div className="text-center">
                                                         {item.subParameters.map((subp, index) => {
                                                             return (
                                                                 <div>
@@ -201,10 +201,10 @@ export default function Input() {
                                                         })}
 
 
-                                                        <div
+                                                        {/* <div
                                                             style={highlightStyles}
                                                             className="bg-gray-500 bg-opacity-10 rounded-sm"
-                                                        />
+                                                        /> */}
                                                     </div>
                                                 </main>
                                                 {/* Tabs Section */}
