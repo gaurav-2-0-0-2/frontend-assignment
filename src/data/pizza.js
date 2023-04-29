@@ -1,4 +1,4 @@
-    [
+export const pizza = [
         {
             "sort": 1,
             "label": "Pizza Name",
@@ -15,7 +15,7 @@
         },
         {
             "sort": 4,
-            "label": "Pizza_type",
+            "label": "Pizza type",
             "description": "",
             "validate": {
                 "required": true,
@@ -286,7 +286,7 @@
                 },
                 {
                     "sort": 6,
-                    "label": "Include_seasonings",
+                    "label": "Include seasonings",
                     "description": "",
                     "validate": {
                         "required": true,

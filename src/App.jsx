@@ -6,21 +6,11 @@ import Input from './components/Input'
 
 
 
-
-
 function App() {
-
   return (
-    <div className='mt-20'>
-
-
+    <div className='m-20'>
       <Input />
-
-
-
     </div>
-
-
   )
 }
 
