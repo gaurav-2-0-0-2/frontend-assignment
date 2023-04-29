@@ -8,3 +8,29 @@
     content: " *";
     color: red;
 }
+
+
+.tab {
+  justify-content: between;
+  width: 30rem;
+  align-items: center;
+  background: rgb(219, 234, 254);;
+  padding: 10px 0;
+  border-radius: 3px ;
+}
+.tab:not(:last-child) {
+  border: 1px solid #7ecbec;
+}
+.tab.active {
+  background: rgb(154, 186, 220);
+}
+.panel {
+  display: none;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+.panel.active {
+  display: block;
+}
+
+/* w-[31rem] hover:border-solid hover:border-blue-500 bg-blue-200 py-4 border rounded cursor-pointer */
