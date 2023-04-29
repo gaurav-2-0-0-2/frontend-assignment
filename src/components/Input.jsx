@@ -113,8 +113,8 @@ export default function Input() {
                                                     <h1 className='required font-bold'>{item.subParameters[0].label}</h1>
                                                     {/* DropDown  */}
                                                     <select name={item.subParameters[0].jsonKey} value={formData.sauce} onChange={handleInput} className='w-[30rem] h-[3rem] rounded-md outline-none bg-blue-100 p-2'>
-                                                        {item.subParameters[0].validate.options.map((slice) => (
-                                                            <option value={slice.value}>{slice.value}</option>
+                                                        {item.subParameters[0].validate.options.map((slice,index) => (
+                                                            <option key={index} value={slice.value}>{slice.value}</option>
                                                         ))}
                                                     </select>
                                                 </div>
@@ -123,8 +123,8 @@ export default function Input() {
                                                     <h1 className='required font-bold'>{item.subParameters[1].label}</h1>
                                                     {/* DropDown  */}
                                                     <select name={item.subParameters[1].jsonKey} value={formData.main_toppings} onChange={handleInput} className='w-[30rem] h-[3rem] rounded-md outline-none bg-blue-100 p-2'>
-                                                        {item.subParameters[1].validate.options.map((slice) => (
-                                                            <option value={slice.value}>{slice.value}</option>
+                                                        {item.subParameters[1].validate.options.map((slice,index) => (
+                                                            <option key={index} value={slice.value}>{slice.value}</option>
                                                         ))}
                                                     </select>
                                                 </div>
@@ -141,8 +141,8 @@ export default function Input() {
                                                         <div className='flex justify-between'>
                                                             <h1 className=' font-bold'>{item.subParameters[3].label}</h1>
                                                             <select name={item.subParameters[3].jsonKey} value={formData.second_toppings} onChange={handleInput} className='p-2 w-[30rem] h-[3rem] rounded-md outline-none bg-blue-100'>
-                                                                {item.subParameters[3].validate.options.map((slice) => (
-                                                                    <option value={slice.value}>{slice.value}</option>
+                                                                {item.subParameters[3].validate.options.map((slice,index) => (
+                                                                    <option key={index} value={slice.value}>{slice.value}</option>
                                                                 ))}
                                                             </select>
                                                         </div>
@@ -165,8 +165,8 @@ export default function Input() {
                                                 <div className='flex justify-between'>
                                                     <h1 className=' font-bold'>{item.label}</h1>
                                                     <select name={item.jsonKey} value={formData.size} onChange={handleInput} className='p-2 w-[30rem] h-[3rem] rounded-md outline-none bg-blue-100'>
-                                                        {item.validate.options.map((slice) => (
-                                                            <option value={slice.value}>{slice.value}</option>
+                                                        {item.validate.options.map((slice,index) => (
+                                                            <option key={index} value={slice.value}>{slice.value}</option>
                                                         ))}
                                                     </select>
                                                 </div>
