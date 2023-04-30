@@ -17,7 +17,7 @@ If everything is fine then you will be able to see this on screen<br>
 ### To test the project  
 In the text-area put this JSON array:
 
-[PIZZA UI SCHEMA](https://drive.google.com/file/d/1RUU_ueF9BbQRLReuX88w8PWe2jsz3Z3C/view?usp=sharing)
+[PIZZA UI SCHEMA](https://drive.google.com/file/d/1kYIQYrGogmNccFB6WbCIy2E4sl2xbbOo/view?usp=share_link)
 
 *Note: Paste this data as an array*<br>
 
