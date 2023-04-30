@@ -184,7 +184,11 @@ export default function Input() {
                                                                                                 </div>
                                                                                                 <div>
                                                                                                     <label className='mr-5'>{subp.subParameters[1].label}</label>
-                                                                                                    <input className='outline-none px-4 mt-5 w-[20rem] h-[2rem]' type="text" />
+                                                                                                    <input className='outline-none rounded-md px-4 mt-5 w-[20rem] h-[3rem] bg-blue-100' placeholder={subp.subParameters[1].placeholder} type="text" 
+                                                                                                        onChange={handleInput}
+                                                                                                        name={subp.subParameters[1].jsonKey}
+                                                                                                        value={formData.type}
+                                                                                                    />
 
                                                                                                 </div>
                                                                                             </div>
